@@ -1,3 +1,18 @@
+/**
+ * @file 			InsertionSortGeneric.cpp
+ * @brief 			A program to implement Insert Sort for generic data
+ * @param Array		Array to be sorted
+ * @param size		size of the Array to be sorted
+ * 
+ * @algorithm:
+ * KeyWord: Sorted Sublist
+ * Steps:
+ * 1) Consider the first element in the array to be a sorted sublist of length 1
+ * 2) Introduc the second element into the sorted sublist, shifting the first element if needed
+ * 3) Introduce the third element into the sorted sublist, shifting the other elements as needed
+ * 4) Repeat until all values have been sorted into their proper positions in the Array.
+ * 
+ */
 #include <iostream>
 #include <string>		// c++ style string
 #include <vector>		// vector
